@@ -4,3 +4,35 @@
   font-family: Roboto, Arial, sans-serif;
   box-sizing: border-box;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+
+.left-section .logo {
+  width: 4em;
+  margin-right: 1.5em;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-containers ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.nav-containers a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
