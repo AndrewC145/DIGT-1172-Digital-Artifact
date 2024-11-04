@@ -148,10 +148,7 @@
   margin: 0 40px;
 }
 
-.image-slider .meta-logo {
-  height: 2.4em;
-}
-
+.image-slider .meta-logo,
 .image-slider .amazon {
-  height: 2.4em;
+  height: 2.5em;
 }
