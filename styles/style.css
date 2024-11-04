@@ -5,11 +5,13 @@
   box-sizing: border-box;
 }
 
+
 .header {
   display: flex;
   justify-content: space-between ;
   align-items: center;
-  padding: 1em 2em;
+  padding: 1em;
+  padding-left: 10em;
 }
 
 
@@ -35,4 +37,64 @@
   text-decoration: none;
   font-size: 1.2em;
   color: black;
+}
+
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+  gap: 10em;
+}
+
+.hero-container .hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 35%;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.hero-left h1 {
+  font-size: 100px;
+}
+
+.hero-left p {
+  font-size: 1.5em;
+}
+
+.hero-left .hero-button {
+  padding: 0.5em 1.5em;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: white;
+}
+
+.hero-container .hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-right .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-right img {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
 }
