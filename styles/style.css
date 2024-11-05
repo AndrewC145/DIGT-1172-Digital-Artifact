@@ -159,38 +159,47 @@
   height: 2.5em;
 }
 
-.content-container {
+.content-container,
+.content-container-two {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2em; /* Add gap between left and right containers */
   padding: 2em;
 }
 
-.content-container .left-container {
+.content-container .left-container,
+.content-container-two .right-container {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 30%; 
+  align-items: flex-start;
+  justify-content: center;
+  width: 30%;
   padding: 3em;
   gap: 1.5em;
+
 }
 
-.left-container h1 {
+.content-container .left-container h1,
+.content-container-two .right-container h1 {
   font-size: 3em;
 }
 
-.left-container p {
+.content-container .left-container p,
+.content-container-two .right-container p {
   font-size: 1.2em;
+  line-height: 1.5;
 }
 
-.left-container .content-btn {
+.content-container .left-container .content-btn,
+.content-container-two .right-container .content-btn {
   padding: 0.5em 1.5em;
   background-color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1.2em;
+  font-weight: 500;
   color: white;
 }
 
@@ -200,16 +209,24 @@
   transition: 0.2s;
 }
 
-.content-container .right-container {
+.content-container .right-container,
+.content-container-two .left-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40%;
-
 }
 
-.right-container img {
+.content-container .right-container img,
+.content-container-two .content-image-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.content-container-two .content-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
