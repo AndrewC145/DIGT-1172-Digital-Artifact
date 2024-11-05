@@ -77,6 +77,12 @@
   color: white;
 }
 
+.hero-button:hover {
+  background-color: lightgrey;
+  color: black;
+  transition: 0.2s;
+}
+
 .hero-container .hero-right {
   display: flex;
   align-items: center;
@@ -151,4 +157,59 @@
 .image-slider .meta-logo,
 .image-slider .amazon {
   height: 2.5em;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+.content-container .left-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%; 
+  padding: 3em;
+  gap: 1.5em;
+}
+
+.left-container h1 {
+  font-size: 3em;
+}
+
+.left-container p {
+  font-size: 1.2em;
+}
+
+.left-container .content-btn {
+  padding: 0.5em 1.5em;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: white;
+}
+
+.content-btn:hover {
+  background-color: lightgrey;
+  color: black;
+  transition: 0.2s;
+}
+
+.content-container .right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+
+}
+
+.right-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
