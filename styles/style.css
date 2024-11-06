@@ -251,13 +251,14 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: yellow;
 }
 
 .quote-section .quote-container {
   padding: 4em;
-  background-color: blue;
-  width: 70%;
+  width: 65%;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
 }
 
 .quote-container img {
@@ -267,58 +268,64 @@
 
 .quote-container h3 {
   font-size: 3.5em;
+  font-weight: 400;
 }
 
 .quote-section .author-container {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
-  background-color: green;
+  padding: 2em;
   margin-left: 2em;
   width: auto;
-}
-
-.author-container .author-source {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row; 
-  gap: 1em; 
-}
-
-.author-source .author-logo {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 2em;
+  position: relative;
+  top: 2em;
 }
 
-.author-logo-and-image .intel-logo {
-  width: 10em;
-  object-fit: cover;
-}
-
-.author-image {
+.author-source {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: row;
 }
 
-.author-source .author-img {
-  width: 6em;
-  object-fit: cover;
-}
-
-.author-source .author-details {
+.author-logo-images {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 2.5em;
 }
 
-.author-container img {
-  display: flex;
-  width: 6em;
+.intel-logo {
+  width: 9em;
   object-fit: cover;
+  position: relative;
+  right: 0.5em;
 }
+ 
+.andy-image {
+  width: 4em;
+  height: 4em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+  position: relative;
+  right: 4em;
+  bottom: 0.5em;
+}
+
+.author-details p {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+
 
 
 
