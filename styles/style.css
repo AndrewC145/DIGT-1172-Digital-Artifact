@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,6 @@
   padding: 1em;
   padding-left: 10em;
 }
-
 
 .left-section .logo {
   width: 4em;
@@ -60,7 +59,7 @@
 }
 
 .hero-left h1 {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .hero-left p {
@@ -104,6 +103,8 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
+
 
 @keyframes slide {
   from {
@@ -186,12 +187,12 @@
 
 .content-container .left-container h1,
 .content-container-two .right-container h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .content-container .left-container p,
 .content-container-two .right-container p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.5;
 }
 
@@ -267,7 +268,7 @@
 }
 
 .quote-container h3 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 400;
 }
 
