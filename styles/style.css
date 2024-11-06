@@ -164,8 +164,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2em; /* Add gap between left and right containers */
+  gap: 2em; 
   padding: 2em;
+}
+
+.content-container-two {
+  gap: 10em;
 }
 
 .content-container .left-container,
@@ -215,6 +219,10 @@
   align-items: center;
   justify-content: center;
   width: 40%;
+}
+
+.content-container-two .left-container {
+  width: 32%;
 }
 
 .content-container .right-container img,
