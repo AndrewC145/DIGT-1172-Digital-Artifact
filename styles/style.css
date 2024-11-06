@@ -104,7 +104,23 @@
   object-fit: cover;
 }
 
+.advertising-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5em;
+  text-align: center; 
 
+}
+
+.advertising-wrapper h3 {
+  font-size: 2.5em;
+  line-height: 2.5;
+}
+
+.advertising-wrapper p {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
 
 @keyframes slide {
   from {
