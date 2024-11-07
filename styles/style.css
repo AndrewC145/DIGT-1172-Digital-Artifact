@@ -133,6 +133,8 @@
 
 .content-container-two {
   gap: 10em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .content-container .left-container,
@@ -144,7 +146,6 @@
   width: 30%;
   padding: 3em;
   gap: 1.5em;
-
 }
 
 .content-container .left-container h1,
@@ -373,6 +374,7 @@
   align-items: center;
   justify-content: center;
   gap: 4em;
+  padding-bottom: 5em;
 }
 
 .email-container .email-input {
