@@ -1,0 +1,35 @@
+@keyframes slideUpFadeIn {
+  0% {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  animation: slideUpFadeIn 0.8s ease-in-out forwards;
+}
+
+.active.fade-right {
+  animation: fade-right 0.8s ease-in-out forwards;
+}

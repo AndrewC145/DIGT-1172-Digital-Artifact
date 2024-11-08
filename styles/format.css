@@ -31,10 +31,11 @@
 
   .quote-section .quote-container {
     padding: 0;
+    width: 70%;
   }
 
   .quote-section .author-container {
-    width: 40%;
+    width: 30%;
     padding: 0;
   }
 
@@ -42,11 +43,6 @@
     position: relative;
     right: 0em;
   }
-
-  .content-container-two .content-image-box img {
-    width: 130%;
-  }
-
 }
 
 
@@ -131,21 +127,62 @@
     object-fit: cover;
   }
 
-
-  .quote-logo {
-    width: 60px; /* Adjust the size for smaller screens */
-    margin-bottom: 0.5em;
+  .quote-section {
+    width: 100%;
+    padding: 0;
   }
 
-  .quote-title {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
+  .quote-section .quote-container {
+    padding: 1em;
+    width: 180%;
   }
 
-  .quote-text {
-    font-size: 0.875em;
+  .quote-section .container-wrapper {
+    padding: 3em;
+    gap: 2em;
   }
 
+  .quote-container h3 {
+    font-size: 25px;
+  }
+
+  .quote-container img {
+    width: 4em;
+    object-fit: cover;
+  }
+
+  .quote-section .author-container {
+    padding: 1em;
+    width: 100%;
+  }
+
+  .author-source {
+    width: 120%;
+  }
+
+  .andy-image {
+    width: 3em;
+    height: 3em;
+  }
+
+  .author-details {
+    right: 2em;
+  }
+
+  .author-details p {
+    font-size: 1em;
+  }
+
+  .intel-logo {
+    width: 6em;
+  }
+
+  .andy-image {
+    display: flex;
+    position: relative;
+    right: 0;
+    bottom: 0.5em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -250,40 +287,4 @@
   .quote-text {
     font-size: 1em;
   }
-}
-
-@keyframes slideUpFadeIn {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes fade-right {
-  0% {
-    transform: translateX(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-
-.reveal {
-  position: relative;
-  opacity: 0;
-}
-
-.reveal.active {
-  animation: slideUpFadeIn 0.8s ease-in-out forwards;
-}
-
-.active.fade-right {
-  animation: fade-right 0.8s ease-in-out forwards;
 }
