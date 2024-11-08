@@ -324,11 +324,6 @@ body {
   z-index: 2;
 }
 
-
-
-
-
-
 .image-slider {
   display: inline-block;
   animation: 35s slide linear infinite;

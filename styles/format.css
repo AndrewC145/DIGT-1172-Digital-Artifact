@@ -1,0 +1,168 @@
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1em;
+  }
+
+  .nav-containers ul {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    gap: 2em;
+    height: auto;
+    padding: 2em;
+  }
+
+  .hero-container .hero-left {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 2em;
+  }
+
+  .hero-left p {
+    font-size: 1em;
+  }
+
+  .hero-left .hero-button {
+    padding: 0.5em 1em;
+  }
+
+  .quote-logo {
+    width: 60px; /* Adjust the size for smaller screens */
+    margin-bottom: 0.5em;
+  }
+
+  .quote-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .quote-text {
+    font-size: 0.875em;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.5em;
+  }
+
+  .nav-containers a {
+    font-size: 1em;
+  }
+
+  .hero-left h1 {
+    font-size: 1.5em;
+  }
+
+  .hero-left p {
+    font-size: 0.875em;
+  }
+
+  .hero-left .hero-button {
+    padding: 0.5em 0.75em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+    padding-left: 2em;
+  }
+
+  .left-section .logo {
+    width: 3em;
+    margin-right: 1em;
+  }
+
+  .nav-containers ul {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .nav-containers a {
+    font-size: 1.1em;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    height: auto;
+  }
+
+  .hero-container .hero-left {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 3em;
+  }
+
+  .hero-left p {
+    font-size: 1.25em;
+  }
+
+  .hero-left .hero-button {
+    padding: 0.5em 1.25em;
+  }
+
+  .advertising-wrapper {
+    padding: 1em 2em;
+    height: auto;
+  }
+
+  .advertising-wrapper h3 {
+    font-size: 2em;
+  }
+
+  .advertising-wrapper p {
+    font-size: 1.25em;
+  }
+
+  .content-container,
+  .content-container-two {
+    height: auto;
+    padding: 2em;
+  }
+
+  .quote-logo {
+    width: 80px; /* Adjust the size for smaller screens */
+    margin-bottom: 0.75em;
+  }
+
+  .quote-title {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+  }
+
+  .quote-text {
+    font-size: 1em;
+  }
+}
+
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.6s ease-in;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
