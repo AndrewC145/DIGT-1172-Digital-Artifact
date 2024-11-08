@@ -315,16 +315,6 @@ body {
   position: relative;
 }
 
-.slider-container:before,
-.slider-container:after {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
 .image-slider {
   display: inline-block;
   animation: 35s slide linear infinite;

@@ -132,14 +132,9 @@
     padding: 0;
   }
 
-  .quote-section .quote-container {
-    padding: 1em;
-    width: 180%;
-  }
-
   .quote-section .container-wrapper {
     padding: 3em;
-    gap: 2em;
+    gap: 3em;
   }
 
   .quote-container h3 {
@@ -151,10 +146,16 @@
     object-fit: cover;
   }
 
-  .quote-section .author-container {
-    padding: 1em;
-    width: 100%;
+  .quote-section .quote-container {
+    padding: 0;
+    width: 70%;
   }
+
+  .quote-section .author-container {
+    width: 30%;
+    padding: 0;
+  }
+
 
   .author-source {
     width: 120%;
@@ -182,6 +183,27 @@
     position: relative;
     right: 0;
     bottom: 0.5em;
+  }
+
+  .image-slider .meta-logo,
+  .image-slider .amazon {
+    height: 2em;
+  }
+
+  .form-wrapper .form-description {
+    font-size: 1em;
+  }
+
+  .form-wrapper .form-title {
+    font-size: 2em;
+  }
+
+  .email-container .email-input {
+    width: 35em;
+  }
+
+  .email-container .submit-button {
+    width: 8em;
   }
 }
 
