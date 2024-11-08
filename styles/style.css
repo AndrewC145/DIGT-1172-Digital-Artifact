@@ -16,7 +16,7 @@ body {
   align-items: center;
   padding: 1em;
   padding-left: 10em;
-  border-bottom: 1px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 .left-section .logo {
@@ -73,7 +73,7 @@ body {
 
 .hero-left .hero-button {
   padding: 0.5em 1.5em;
-  background-color: black;
+  background-color: rgb(15, 119, 216);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -169,7 +169,7 @@ body {
 .content-container .left-container .content-btn,
 .content-container-two .right-container .content-btn {
   padding: 0.5em 1.5em;
-  background-color: black;
+  background-color: rgb(15, 119, 216);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -178,7 +178,8 @@ body {
   color: white;
 }
 
-.content-btn:hover {
+.content-container .left-container .content-btn:hover,
+.content-container-two .right-container .content-btn:hover {
   background-color: lightgrey;
   color: black;
   transition: 0.2s;
@@ -391,6 +392,12 @@ body {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+.email-container .submit-button:hover {
+  background-color: lightgrey;
+  color: black;
+  transition: 0.2s;
 }
 
 footer {
