@@ -341,3 +341,155 @@
     width: 8em;
   }
 }
+
+@media (max-width: 375px) {
+  .nav-containers a {
+    font-size: 1em;
+  }
+
+  .left-section .logo {
+    width: 3em;
+  }
+
+  .hero-left .hero-title {
+    font-size: 2.5em;
+  }
+
+  .hero-left .description {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .hero-right .img-container img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero-left .hero-button {
+    font-size: 1em;
+  }
+
+  .advertising-wrapper {
+    padding: 3em;
+    width: 100%;
+  }
+
+  .advertising-wrapper h3 {
+    font-size: 2em;
+  }
+
+  .advertising-wrapper p {
+    font-size: 1em;
+  }
+
+  .content-container,
+  .content-container-two {
+    display: flex;
+    flex-wrap: wrap; /* Ensure the content wraps correctly */
+    gap: 1em; /* Adjust the gap between the elements */
+  }
+
+  .content-container-two {
+    padding: 5em 0 5em 0;
+  }
+  
+  .content-container .left-container,
+  .content-container-two .right-container {
+    padding: 1em;
+    width: 100%; /* Ensure the containers take up the full width */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+  
+  .content-container .left-container p,
+  .content-container-two .right-container p {
+    margin-bottom: 1em; /* Add margin to separate the text from the image */
+  }
+
+  .content-container .right-container img,
+  .content-container-two .content-image-box img {
+    width: 345px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .quote-section .container-wrapper {
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 0em;
+  }
+  
+  .quote-section .quote-container {
+    width: 80%;
+    align-items: flex-start;
+    transform: translateX(30px);
+  }
+
+  .quote-container h3 {
+    font-size: 30px;
+    margin-bottom: 1em;
+  }
+  
+  .quote-section .author-container {
+    width: 100%;
+    transform: translateX(40px);
+  }
+
+  .intel-logo {
+    width: 84px;
+    height: auto;
+  }
+
+  .author-details {
+    right: 1em;
+  }
+
+  .andy-image {
+    bottom: 1.2em;
+  }
+  
+  .image-slider img {
+    height: 2em;
+  }
+
+  .image-slider .meta-logo,
+  .image-slider .amazon {
+    height: 1.5em;
+  }
+
+  .form-container {
+    padding: 0;
+  }
+
+  .form-wrapper .form-description {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .form-wrapper .form-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .email-container {
+    gap: 1em;
+  }
+
+  .email-container .email-input {
+    width: 100%;
+  }
+
+  .email-container .submit-button {
+    width: 50%;
+    padding: 0.5em;
+  }
+  
+  footer {
+    text-wrap: nowrap;
+  }
+
+}
