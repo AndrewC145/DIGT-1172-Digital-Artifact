@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .hero-container {
     padding: 2em;
   }
@@ -45,7 +45,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .header {
     align-items: center;
     padding: 1em;
@@ -186,7 +186,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header {
     padding-left: 1em;
   }
@@ -342,7 +342,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .nav-containers a {
     font-size: 1em;
   }
