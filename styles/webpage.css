@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #EEEEEA;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 1em;
+  padding-left: 10em;
+  border-bottom: 1.5px solid black;
+}
+
+.left-section .logo {
+  width: 4em;
+  margin-right: 1.5em;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-containers ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.nav-containers a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+
+.article-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 2em;
+  width: 55%;
+  align-items: flex-start
+}
+
+.article-wrapper h1 {
+  font-size: 4em;
+}
+
+.article-wrapper p {
+  font-size: 1.2em;
+  color: rgb(15, 119, 216);
+}
+
+.article-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-wrapper p {
+  color: black;
+  margin: 1em 0;
+  line-height: 2em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  background-color: black;
+  color: white;
+}
