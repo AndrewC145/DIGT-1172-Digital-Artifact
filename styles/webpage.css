@@ -17,8 +17,8 @@ body {
   display: flex;
   justify-content: space-between ;
   align-items: center;
-  padding: 1em;
-  padding-left: 10em;
+  padding: 2em;
+  margin: 0 4.5em 0 4.5em;
 }
 
 .left-section .logo {
@@ -43,6 +43,45 @@ body {
   text-decoration: none;
   font-size: 1.2em;
   color: black;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.right-section .contact-btn {
+  padding: 0.5em 1.5em;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(15, 119, 216);
+  border: 1px solid rgb(15, 119, 216);
+  font-weight: 500;
+}
+
+.right-section .log-in-btn {
+  padding: 0.5em 1.5em;
+  background-color: rgb(15, 119, 216);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.right-section .log-in-btn:hover {
+  background-color: lightgrey;
+  color: black;
+  transition: 0.2s;
 }
 
 .article-container {
