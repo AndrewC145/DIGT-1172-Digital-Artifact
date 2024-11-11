@@ -19,7 +19,6 @@ body {
   align-items: center;
   padding: 1em;
   padding-left: 10em;
-  border-bottom: 1.5px solid black;
 }
 
 .left-section .logo {
@@ -96,4 +95,36 @@ footer {
   padding: 2em;
   background-color: black;
   color: white;
+}
+
+@keyframes slideUpFadeIn {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  animation: slideUpFadeIn 0.9s ease-in-out forwards;
+}
+
+.title.reveal.active {
+  animation-delay: 0s;
+}
+
+.date.reveal.active {
+  animation-delay: 0.2s;
+}
+
+.image.reveal.active {
+  animation-delay: 0.4s;
 }
