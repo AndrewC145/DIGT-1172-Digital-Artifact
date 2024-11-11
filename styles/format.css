@@ -46,11 +46,6 @@
 
 
 @media screen and (max-width: 1024px) {
-  .header {
-    align-items: center;
-    padding: 1em;
-    padding-left: 2em;
-  }
 
   .left-section .logo {
     width: 3em;
@@ -59,6 +54,10 @@
 
   .nav-containers ul {
     gap: 1em;
+  }
+
+  .right-section {
+    margin-right: 1.5em;
   }
 
   .hero-container {
@@ -188,7 +187,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    padding-left: 1em;
+    margin: 0;
   }
 
   .left-section .nav-containers ul {
@@ -343,12 +342,26 @@
 }
 
 @media screen and (max-width: 375px) {
+  .header {
+    margin: 0;
+    padding: 1em;
+    text-wrap: nowrap;
+  }
+
   .nav-containers a {
     font-size: 1em;
   }
 
   .left-section .logo {
     width: 3em;
+  }
+
+  .right-section .contact-btn {
+    display: none;
+  }
+
+  .right-section .log-in-btn {
+    display: none;
   }
 
   .hero-left .hero-title {
