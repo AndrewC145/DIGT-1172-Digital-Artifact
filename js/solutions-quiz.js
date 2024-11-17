@@ -1,39 +1,40 @@
-const collectionQuestions = [
-  {
-    question: "What Kind of Information is Personal Data?",
-    answers: [
-      {text: "Any information that can be used to identify an individual", correct: true},
-      {text: "Any information that can be used to identify a company", correct: false},
-      {text: "Any information that can be used to identify your behavior", correct: false},
-      {text: "Any information that can be used to identify consumer satisfaction", correct: false}
-  ]
-  },
-  {
-    question: "What is the most obvious way companies collect your data?",
-    answers: [
-      {text: "Through your social media accounts", correct: false},
-      {text: "Through your online shopping habits", correct: false},
-      {text: "Collecting Cookies", correct: true},
-      {text: "From Location Based Advertising", correct: false},
-    ]
-  },
-  {
-    question: "What is Attitudinal Data?",
-    answers: [
-      {text: "Data that is collected from your social media accounts", correct: false},
-      {text: "Data that is collected from your online shopping habits", correct: false},
-      {text: "Data that is collected from your behavior", correct: false},
-      {text: "Data that is collected from your opinions (consumer satisfaction)", correct: true},
-    ]
-  }
-];
-
 const questionElement = document.getElementById('question');
 const answersElement = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 
 let currentQuestionIndex = 0;
 let score = 0;
+
+
+const solutionsQuestions = [
+  {
+    question: "What is the easiest way to reduce data collection?",
+    answers: [
+      {text: "Delete Browsing Data", correct: false},
+      {text: "Opt out of Cookies", correct: true},
+      {text: "Use an Ad Blocker", correct: false},
+      {text: "Use a VPN", correct: false}
+  ]
+  },
+  {
+    question: "What is a VPN?",
+    answers: [
+      {text: "A platform for storing your private files securely online.", correct: false},
+      {text: "A browser extension that allows you to browse incognito.", correct: false},
+      {text: "A Virtual Private Network that encrypts your internet connection and hides your IP address to enhance privacy and security online.", correct: true},
+      {text: "A device that blocks malware and viruses on your computer.", correct: false}
+    ]
+  },
+  {
+    question: "What happens when you delete your browsing data?",
+    answers: [
+      {text: "It completely prevents websites from collecting your data in the future.", correct: false},
+      {text: "It blocks all ads permanently.", correct: false},
+      {text: "It makes your browser completely anonymous to websites.", correct: false},
+      {text: "It removes your browsing history, cookies, and cached data, but does not directly protect you from data collection.", correct: true}
+    ]
+  }
+];
 
 function startGame() {
   currentQuestionIndex = 0;
@@ -44,7 +45,7 @@ function startGame() {
 
 function setNextQuestion() {
   resetState();
-  let currentQuestion = collectionQuestions[currentQuestionIndex];
+  let currentQuestion = solutionsQuestions[currentQuestionIndex];
   let questionNum = currentQuestionIndex + 1;
   questionElement.textContent = `${questionNum}: ${currentQuestion.question}`;
   currentQuestion.answers.forEach(answer => {
@@ -86,7 +87,7 @@ function selectAnswer(e) {
 
 function showScore() {
   resetState();
-  questionElement.textContent = `You scored ${score} out of ${collectionQuestions.length}`;
+  questionElement.textContent = `You scored ${score} out of ${solutionsQuestions.length}`;
   nextButton.textContent = 'Restart';
   nextButton.style.display = 'block';
 }
@@ -99,7 +100,7 @@ nextButton.addEventListener('click', () => {
     startGame();
   } else {
     currentQuestionIndex++;
-    if (currentQuestionIndex < collectionQuestions.length) {
+    if (currentQuestionIndex < solutionsQuestions.length) {
       setNextQuestion();
     } else {
       showScore();
