@@ -123,7 +123,20 @@ body {
 
 .text-wrapper p {
   color: black;
-  margin: 1em 0;
+  margin: 1.5em 0;
+  line-height: 2em;
+}
+
+.paragraph-collect {
+  font-weight: bold;
+}
+
+ol {
+  padding-left: 2em;
+}
+
+ol li {
+  font-size: 1.1em;
   line-height: 2em;
 }
 
