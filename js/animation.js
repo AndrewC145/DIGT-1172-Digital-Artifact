@@ -1,11 +1,3 @@
-const imageSlider = document.querySelector('.image-slider').cloneNode(true);
-document.querySelector('.slider-container').appendChild(imageSlider);
-
-const submitButton = document.querySelector('.submit-button');
-submitButton.addEventListener('click', () => {
-  alert('This does not actually submit anything.');
-});
-
 window.addEventListener('scroll', reveal);
 
 function reveal() {
@@ -25,5 +17,3 @@ function reveal() {
 window.addEventListener('DOMContentLoaded', () => {
   reveal();
 });
-
-

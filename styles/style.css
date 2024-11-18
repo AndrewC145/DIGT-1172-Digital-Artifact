@@ -63,7 +63,7 @@ body {
   font-weight: 500;
 }
 
-.right-section .contact-btn {
+.right-section .sign-btn {
   background-color: transparent;
   color: rgb(15, 119, 216);
   border: 1px solid rgb(15, 119, 216);
@@ -419,6 +419,7 @@ body {
   background-color: black;
   color: white;
   cursor: pointer;
+  text-align: center;
 }
 
 .email-container .submit-button:hover {
