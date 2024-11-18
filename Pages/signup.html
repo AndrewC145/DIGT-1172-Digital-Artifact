@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="../styles/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+    <body>
+      <main>
+        <section>
+          <div class="signUp-page">
+            <div class="signUp-card">
+              <div class="signUp-title">
+                <h1>Sign Up</h1>
+              </div>
+              <form action="#">
+                <div class="signUp-form">
+                  <input class="username" type="email" placeholder="Email">
+                  <input class="password" type="password" placeholder="Password">
+                </div>
+                <div class="remember-forgot">
+                  <label><input type="checkbox" class="remember-me">Remember Me</label>
+                </div>
+                <button class="signUp-button">Sign Up</button>
+                <div class="register">
+                  <p>Already Have an Account? <a href="login.html" class="register-link">Register</a></p>
+                </div>
+              </form>
+              <div class="x-button">
+                <a href="../index.html" class="close-button">X</a>
+              </div>
+            </div>
+          </div>
+    </body>
+    <script>
+      const signUpButton = document.querySelector('.signUp-button');
+      signUpButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        alert('Account Created (This has no functionality on purpose)');
+        window.location.href = '../index.html';
+      });
+    </script>
+</html>

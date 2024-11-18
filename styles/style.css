@@ -52,7 +52,7 @@ body {
   gap: 1em;
 }
 
-.right-section button {
+.right-section a {
   padding: 0.5em 1.5em;
   border: none;
   border-radius: 5px;
@@ -71,6 +71,9 @@ body {
 
 .right-section .log-in-btn {
   background-color: rgb(15, 119, 216);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
   color: white;
 }
 

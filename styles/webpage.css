@@ -51,31 +51,29 @@ body {
   gap: 1em;
 }
 
-.right-section .sign-btn {
+.right-section a {
   padding: 0.5em 1.5em;
-  background-color: transparent;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1em;
   text-align: center;
   text-decoration: none;
-  color: rgb(15, 119, 216);
-  border: 1px solid rgb(15, 119, 216);
   font-weight: 500;
 }
 
+.right-section .sign-btn {
+  background-color: transparent;
+  color: rgb(15, 119, 216);
+  border: 1px solid rgb(15, 119, 216);
+}
+
 .right-section .log-in-btn {
-  padding: 0.5em 1.5em;
   background-color: rgb(15, 119, 216);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
   color: white;
-  font-weight: 500;
 }
 
 .right-section .log-in-btn:hover {

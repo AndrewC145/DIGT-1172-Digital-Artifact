@@ -28,7 +28,7 @@
                 </div>
                 <button class="login-button">Login</button>
                 <div class="register">
-                  <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                  <p>Don't have an account? <a href="signup.html" class="register-link">Register</a></p>
                 </div>
               </form>
               <div class="x-button">
@@ -41,17 +41,7 @@
       const loginButton = document.querySelector('.login-button');
       loginButton.addEventListener('click', (event) => {
         event.preventDefault();
-        const emailInput = document.querySelector('.username');
-        const passwordInput = document.querySelector('.password');
-        if (emailInput.value === '') {
-          return;
-        } else if (!emailInput.value.includes('@')) {
-          return;
-        } else if (passwordInput.value === '') {
-          alert('Please enter your password');
-          return;
-        }
-        alert('Login Successful');
+        alert('Login Successful (This has no functionality)');
         window.location.href = '../index.html';
       });
     </script>
