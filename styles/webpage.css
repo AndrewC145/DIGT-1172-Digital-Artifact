@@ -249,3 +249,23 @@ footer {
 .image.reveal.active {
   animation-delay: 0.4s;
 }
+
+@media screen and (max-width: 1024px) {
+  .article-wrapper h1 {
+    font-size: 2.5em;
+  }
+
+  .header {
+    margin: 0 2em 0 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article-wrapper h1 {
+    font-size: 2em;
+  }
+
+  .header {
+    margin: 0;
+  }
+}
