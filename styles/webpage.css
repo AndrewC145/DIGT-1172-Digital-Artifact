@@ -142,7 +142,7 @@ ol li {
   background: #EEEEEA;
   width: 90%;
   max-width: 800px;
-  margin: 100px auto;
+  margin: 60px auto;
   border-radius: 10px;
   padding: 2.5em;
 }
@@ -207,6 +207,15 @@ ol li {
 
 .wrong {
   background: #ff9393;
+}
+
+.citations h2 {
+  font-size: 2em;
+}
+
+.citations p {
+  color: black;
+  padding: 1em;
 }
 
 footer {
