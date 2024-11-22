@@ -277,4 +277,12 @@ footer {
   .header {
     margin: 0;
   }
+
+  .article-wrapper p {
+    font-size: 1em;
+  }
+
+  .quiz-wrapper {
+    padding: 1em;
+  }
 }
