@@ -356,8 +356,7 @@
     width: 3em;
   }
 
-  .right-section .contact-btn,
-  .right-section .log-in-btn {
+  .right-section {
     display: none;
   }
 

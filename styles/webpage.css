@@ -285,4 +285,69 @@ footer {
   .quiz-wrapper {
     padding: 1em;
   }
+
+  .citations h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    margin: 0;
+    padding: 1em;
+    text-wrap: nowrap;
+    font-size: 0.8em;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+  .article-wrapper {
+    width: 80%;
+  }
+
+  .nav-containers a {
+    text-wrap: none;
+  }
+
+  .article-wrapper h1 {
+    font-size: 1.5em;
+  }
+
+  .article-wrapper img {
+    margin: 0;
+  }
+
+  .text-wrapper p {
+    font-size: 1em;
+  }
+
+  ol {
+    padding-left: 1em;
+    font-size: 1em;
+  }
+
+  ol li {
+    font-size: 0.9em;
+  }
+
+  .quiz-wrapper {
+    margin: 0;
+    width: 100%;
+  }
+
+  .citations {
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+  .citations p {
+    font-size: 0.9em;
+  }
+
+  footer {
+    font-size: 0.9em;
+  }
+
 }
