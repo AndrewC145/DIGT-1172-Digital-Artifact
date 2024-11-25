@@ -132,3 +132,26 @@ body {
   font-size: 28px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 375px) {
+  .signUp-page .signUp-card {
+    width: 100%;
+  }
+
+  .signUp-page .username, .signUp-page .password {
+    width: 100%;
+  }
+
+  .signUp-page .remember-forgot {
+    width: 100%;
+  }
+
+  .signUp-page .signUp-button {
+    width: 100%;
+  }
+
+  .signUp-page .register {
+    width: 100%;
+  }
+
+}

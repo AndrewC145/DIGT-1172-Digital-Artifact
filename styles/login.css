@@ -132,3 +132,29 @@ body {
   font-size: 28px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 375px) {
+  .login-page .login-card {
+    width: 100%;
+  }
+
+  .login-page .username, .login-page .password {
+    width: 100%;
+  }
+
+  .login-page .remember-forgot {
+    width: 100%;
+  }
+
+  .login-page .login-button {
+    width: 100%;
+  }
+
+  .login-page .register {
+    width: 100%;
+  }
+
+  .forgot-password {
+    margin-left: 10px;
+  }
+}
